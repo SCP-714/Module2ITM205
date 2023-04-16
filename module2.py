@@ -1,7 +1,8 @@
 course = 'Welcome to Module 2 Dr. Kurt Diesch';
 print(course);
 
-string = 'HelloWorld';
-another = string[:];
+first = 'Bain'
+last = 'Obermark'
+message = f'{first} [{last}] is a Software Engineer';
 
-print (another);
+print(message);
