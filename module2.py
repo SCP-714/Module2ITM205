@@ -5,4 +5,8 @@ first = 'Bain'
 last = 'Obermark'
 message = f'{first} [{last}] is a Software Engineer';
 
-print(message);
+
+print(message.replace('Software Engineer', 'Web Developer'));
+
+# calculates amount of characters
+print(len(message))
